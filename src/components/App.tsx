@@ -24,7 +24,7 @@ function App() {
           password: "",
         }}
         onSubmit={(values) => {
-          alert("This is your regitration data" + JSON.stringify(values));
+          alert("This is your regitration data: " + JSON.stringify(values));
         }}
         component={RegitrationForm}
       />
