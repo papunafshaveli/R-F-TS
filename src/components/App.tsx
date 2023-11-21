@@ -3,7 +3,7 @@ import RegitrationForm from "./RegitrationForm";
 
 import "react-datepicker/dist/react-datepicker.css";
 
-type FormModel = {
+export type FormModel = {
   name: string;
   username: string;
   email: string;

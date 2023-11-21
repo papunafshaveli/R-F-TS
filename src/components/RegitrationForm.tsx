@@ -1,13 +1,6 @@
 import ReactDatePicker from "react-datepicker";
 import { FormikProps } from "formik";
-
-type FormModel = {
-  name: string;
-  username: string;
-  email: string;
-  dateOfBirth: Date | undefined;
-  password: string;
-};
+import type { FormModel } from "./App";
 
 const RegitrationForm: (props: FormikProps<FormModel>) => JSX.Element = ({
   handleSubmit,
